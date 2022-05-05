@@ -1,7 +1,6 @@
 package day1;
 
 import java.io.*;
-import java.util.ArrayList;
 
 public class SimpleFileReaderWithBufferedReader {
     public static void main(String[] args) {

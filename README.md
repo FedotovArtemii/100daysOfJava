@@ -1,2 +1,6 @@
 # 100daysOfJava
 doing a 100 days of code with java
+
+no specific plan but I'll do a rundown of what I do every day
+
+* day 1 05/05/2022 Java program to read text from one file and output it each word on a new line in console

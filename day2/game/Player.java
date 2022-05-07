@@ -3,13 +3,21 @@ package day2.game;
 import java.util.Scanner;
 
 public class Player {
-    private final char piece;
+    private final String piece;
+    private final String name;
 
-    public Player(int identifier) {
-        if (identifier == 1) {
-            this.piece = 'X';
-        } else {
-            this.piece = 'O';
+    public Player(Scanner scanner) {
+        System.out.println("please enter player name ");
+        this.name = scanner.next();
+        while (true) {
+            System.out.println("Please enter a character for player " + name);
+            String enteredValue = scanner.next();
+            if (enteredValue.length() > 1) {
+                System.out.println("Please enter only one character ");
+            } else {
+                this.piece = enteredValue;
+                break;
+            }
         }
     }
 
@@ -27,12 +35,12 @@ public class Player {
         }
     }
 
-    public char getPiece() {
+    public String getPiece() {
         return piece;
     }
 
     @Override
     public String toString() {
-        return String.valueOf(piece);
+        return name;
     }
 }

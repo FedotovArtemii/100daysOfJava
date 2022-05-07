@@ -1,15 +1,15 @@
 package day2.game;
 
 public class GameBoard {
-    final char[][] gameBoard;
+    final String[][] gameBoard;
     final int size;
 
     public GameBoard(int size) {
         this.size = size;
-        gameBoard = new char[size][size];
+        gameBoard = new String[size][size];
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {
-                gameBoard[i][j] = ' ';
+                gameBoard[i][j] = " ";
             }
         }
     }
@@ -45,10 +45,10 @@ public class GameBoard {
     }
 
     public boolean checkIfEmpty(int pos1, int pos2) {
-        return gameBoard[pos1][pos2] == ' ';
+        return gameBoard[pos1][pos2].equals(" ");
     }
 
-    public void placePiece(int pos1, int pos2, char piece) {
+    public void placePiece(int pos1, int pos2, String piece) {
         gameBoard[pos1][pos2] = piece;
     }
 
@@ -60,19 +60,19 @@ public class GameBoard {
             int horizontalResult = 0;
             int verticalResult = 0;
             for (int j = 0; j < size; j++) {
-                if (gameBoard[j][i] == player.getPiece()) {
+                if (gameBoard[j][i].equals(player.getPiece())) {
                     verticalResult++;
                 }
-                if (gameBoard[i][j] == player.getPiece()) {
+                if (gameBoard[i][j].equals(player.getPiece())) {
                     horizontalResult++;
                 }
                 //check main diagonal
                 if (i == j) {
-                    if (gameBoard[i][j] == player.getPiece())
+                    if (gameBoard[i][j].equals(player.getPiece()))
                         mainDiagonalResult++;
                 }
                 if (size - i - j - 1 == 0) {
-                    if (gameBoard[i][j] == player.getPiece())
+                    if (gameBoard[i][j].equals(player.getPiece()))
                         offDiagonalResult++;
                 }
             }

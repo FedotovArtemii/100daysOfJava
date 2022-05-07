@@ -1,11 +1,11 @@
 package day2.game;
 
 public class Turn {
-    final char piece;
+    final String piece;
     final int pos1;
     final int pos2;
 
-    public Turn(char piece, int pos1, int pos2) {
+    public Turn(String piece, int pos1, int pos2) {
         this.piece = piece;
         this.pos1 = pos1;
         this.pos2 = pos2;

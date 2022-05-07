@@ -6,9 +6,16 @@ public class Match3Game {
     public static void main(String[] args) {
         int numberOfTurns = 0;
         Scanner scanner = new Scanner(System.in);
-        GameBoard gameBoard = new GameBoard(5);
-        Player player1 = new Player(1);
-        Player player2 = new Player(2);
+        GameBoard gameBoard = new GameBoard(3);
+        Player player1;
+        Player player2;
+        while (true) {
+            player1 = new Player(scanner);
+            player2 = new Player(scanner);
+            if (player1.getPiece().equals(player2.getPiece())) {
+                System.out.println("You can't use the same character, starting over");
+            } else break;
+        }
         Player currentPlayer = player1;
         boolean gameEnded = false;
         while (true) {

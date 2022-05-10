@@ -7,3 +7,5 @@ no specific plan but I'll do a rundown of what I do every day
 * day 2 06/05/2022 Started doing a match 3 game didn't have enough time to finish today will continue tomorrow
 * day 3 07/05/2022 Game is ready to play in console, worked out better than expected
 * day 4 08/05/2022 Today I decided to focus on data structures, namely Arrays and Stacks solving questions for them in GeeksForGeeks and some problems in LeetCode
+* day 5 09/05/2022 Hate to admit but I've done nothing... But I had a nice family dinner. Next day is going to be better:)
+* day 6 10/05/2022

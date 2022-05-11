@@ -6,7 +6,7 @@ public class Match3Game {
     public static void main(String[] args) {
         int numberOfTurns = 0;
         Scanner scanner = new Scanner(System.in);
-        GameBoard gameBoard = new GameBoard(3);
+        GameBoard gameBoard = new GameBoard(7);
         Player player1;
         Player player2;
         while (true) {

@@ -9,3 +9,4 @@ no specific plan but I'll do a rundown of what I do every day
 * day 4 08/05/2022 Today I decided to focus on data structures, namely Arrays and Stacks solving questions for them in GeeksForGeeks and some problems in LeetCode
 * day 5 09/05/2022 Hate to admit it, but I've done nothing... But I had a nice family dinner. Next day is going to be better:)
 * day 6 10/05/2022 Was catching up on LeetCode
+* day 7 11/05/2022 Catch up on LeetCode

@@ -10,3 +10,4 @@ no specific plan but I'll do a rundown of what I do every day
 * day 5 09/05/2022 Hate to admit it, but I've done nothing... But I had a nice family dinner. Next day is going to be better:)
 * day 6 10/05/2022 Was catching up on LeetCode
 * day 7 11/05/2022 Catch up on LeetCode
+* day 8 12/05/2022 Catch up on LeetCode don't have a lot of time during the week so I will practice more on the weekend
